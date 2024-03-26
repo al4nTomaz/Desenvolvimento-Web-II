@@ -7,8 +7,8 @@
 
 <body>
     <?php include "dados.php"; ?>
-    <?php
 
+    <?php
     echo "<br> $nomeSite <br>";
 
     echo "<br> $descricaoSite <br>";
@@ -21,5 +21,18 @@
 
     <img src=<?php echo $imagem; ?> alt="bad luigi">
 </body>
+
+<footer>
+    <?php include "rodape.php"; ?>
+
+    <hr></hr>
+    <?php
+    echo "<br> $autor <br>";
+
+    echo "<br> $descricaoSite <br>";
+    ?>
+    
+    <img src=<?php echo $imagem; ?> alt="wluigi taco">
+</footer>
 
 </html>
