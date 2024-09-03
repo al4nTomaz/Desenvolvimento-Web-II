@@ -6,19 +6,53 @@
         private $maiorAltura;
         private $menorAltura;
         private $mediaAturaHomens;
-
-        /*public function getValorImposto(){
-            return $this->valorImposto;
+        
+        public function getMaiorAltura(){
+            return $this->maiorAltura;
         }
-        public function setValorImposto($valorImposto){
-            $this->valorImposto = $valorImposto;
+
+        public function setMaiorAltura($maiorAltura){
+            $this->maiorAltura = $maiorAltura;
+        }
+
+        
+        public function getMenorAltura(){
+            return $this->menorAltura;
         }
         
-        public function getNomeFuncionario(){
-            return $this->nomeFuncionario;
+        public function setMenorAltura($menorAltura){
+            $this->menorAltura = $menorAltura;
         }
-        public function setNomeFuncionario($nomeFuncionario){
-            $this->nomeFuncionario = $nomeFuncionario;
-        }*/
+
+        
+        public function getMediaAturaHomens(){
+            return $this->mediaAturaHomens;
+        }
+
+        public function setMediaAturaHomens($mediaAturaHomens){
+            $this->mediaAturaHomens = $mediaAturaHomens;
+        }
+
+        
+        public function getQtdHomens(){
+            return $this->qtdHomens;
+        }
+
+        public function setQtdHomens($qtdHomens){
+            $this->qtdHomens = $qtdHomens;
+        }
+
+
+        public function getQtdMulheres(){
+            return $this->qtdMulheres;
+        }
+
+        public function setQtdMulheres($qtdMulheres){
+            $this->qtdMulheres = $qtdMulheres;
+        }
+
+        public function realizarCenso(){
+
+        }
     }
 ?>

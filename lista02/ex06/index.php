@@ -1,7 +1,7 @@
 <?php
     
-    require 'TestarImposto.php';
-    $teste = new TestarImposto();
+    require 'TestarCenso.php';
+    $teste = new TestarCenso();
 
     $teste->main();
 
